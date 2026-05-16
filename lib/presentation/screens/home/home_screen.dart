@@ -107,67 +107,43 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
           ListTile(
             leading: const Icon(Icons.home),
             title: const Text('Home'),
-            onTap: () {
-              Navigator.of(context).pop();
-              context.go('/');
-            },
+            onTap: () => context.go('/'),
           ),
           ListTile(
             leading: const Icon(Icons.photo_library),
             title: const Text('Gallery'),
-            onTap: () {
-              Navigator.of(context).pop();
-              context.push('/gallery');
-            },
+            onTap: () => context.push('/gallery'),
           ),
           ListTile(
             leading: const Icon(Icons.people),
             title: const Text('Artists'),
-            onTap: () {
-              Navigator.of(context).pop();
-              context.push('/artists');
-            },
+            onTap: () => context.push('/artists'),
           ),
           ListTile(
             leading: const Icon(Icons.comment),
             title: const Text('Comments'),
-            onTap: () {
-              Navigator.of(context).pop();
-              context.push('/comments');
-            },
+            onTap: () => context.push('/comments'),
           ),
           ListTile(
             leading: const Icon(Icons.note),
             title: const Text('Notes'),
-            onTap: () {
-              Navigator.of(context).pop();
-              context.push('/notes');
-            },
+            onTap: () => context.push('/notes'),
           ),
           ListTile(
             leading: const Icon(Icons.label),
             title: const Text('Tags'),
-            onTap: () {
-              Navigator.of(context).pop();
-              context.push('/tags');
-            },
+            onTap: () => context.push('/tags'),
           ),
           ListTile(
             leading: const Icon(Icons.collections),
             title: const Text('Pools'),
-            onTap: () {
-              Navigator.of(context).pop();
-              context.push('/pools');
-            },
+            onTap: () => context.push('/pools'),
           ),
           const Divider(),
           ListTile(
             leading: const Icon(Icons.settings),
             title: const Text('Settings'),
-            onTap: () {
-              Navigator.of(context).pop();
-              context.push('/settings');
-            },
+            onTap: () => context.push('/settings'),
           ),
         ],
       ),
