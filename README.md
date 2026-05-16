@@ -1,5 +1,19 @@
 # Danbooru Browser App
 
+<p align="center">
+  <img src="assets/android-flutter-icon.png" alt="Danbooro Logo" width="120">
+</p>
+
+<p align="center">
+  <a href="https://flutter.dev/">
+    <img src="https://img.shields.io/badge/Built%20with-Flutter-blue.svg" alt="Built with Flutter">
+  </a>
+  <a href="https://pub.dev/packages/flutter_riverpod">
+    <img src="https://img.shields.io/badge/State-Riverpod-success.svg" alt="Riverpod">
+  </a>
+</p>
+
+
 A Flutter Android app for browsing Danbooru with a smooth, infinite-scroll binge experience.
 
 ## Features
