@@ -108,7 +108,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
             leading: const Icon(Icons.home),
             title: const Text('Home'),
             onTap: () {
-              context.pop();
+              Navigator.of(context).pop();
               context.go('/');
             },
           ),
@@ -116,7 +116,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
             leading: const Icon(Icons.photo_library),
             title: const Text('Gallery'),
             onTap: () {
-              context.pop();
+              Navigator.of(context).pop();
               context.push('/gallery');
             },
           ),
@@ -124,7 +124,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
             leading: const Icon(Icons.people),
             title: const Text('Artists'),
             onTap: () {
-              context.pop();
+              Navigator.of(context).pop();
               context.push('/artists');
             },
           ),
@@ -132,7 +132,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
             leading: const Icon(Icons.comment),
             title: const Text('Comments'),
             onTap: () {
-              context.pop();
+              Navigator.of(context).pop();
               context.push('/comments');
             },
           ),
@@ -140,7 +140,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
             leading: const Icon(Icons.note),
             title: const Text('Notes'),
             onTap: () {
-              context.pop();
+              Navigator.of(context).pop();
               context.push('/notes');
             },
           ),
@@ -148,7 +148,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
             leading: const Icon(Icons.label),
             title: const Text('Tags'),
             onTap: () {
-              context.pop();
+              Navigator.of(context).pop();
               context.push('/tags');
             },
           ),
@@ -156,7 +156,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
             leading: const Icon(Icons.collections),
             title: const Text('Pools'),
             onTap: () {
-              context.pop();
+              Navigator.of(context).pop();
               context.push('/pools');
             },
           ),
@@ -165,7 +165,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
             leading: const Icon(Icons.settings),
             title: const Text('Settings'),
             onTap: () {
-              context.pop();
+              Navigator.of(context).pop();
               context.push('/settings');
             },
           ),
