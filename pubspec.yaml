@@ -2,7 +2,7 @@ name: danbooro
 description: "A Flutter Android app for browsing Danbooru content with a smooth, infinite-scroll binge experience."
 publish_to: 'none'
 
-version: 1.0.0+1
+version: 1.0.1+1
 
 environment:
   sdk: ^3.11.5
@@ -42,6 +42,7 @@ dependencies:
   # Utilities
   freezed_annotation: ^2.4.0
   json_annotation: ^4.8.1
+  flutter_launcher_icons: ^0.14.4
 
 dev_dependencies:
   flutter_test:
@@ -51,5 +52,14 @@ dev_dependencies:
   freezed: ^2.4.5
   json_serializable: ^6.7.1
 
+
+flutter_launcher_icons:
+  android: true
+  image_path_android: "assets/android-flutter-icon-full.png"
+  adaptive_icon_background: "assets/android-flutter-icon-background.png"
+  adaptive_icon_foreground: "assets/android-flutter-icon.png"
+
 flutter:
   uses-material-design: true
+  assets:
+    - assets/
